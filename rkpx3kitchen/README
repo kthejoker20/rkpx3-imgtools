@@ -1,0 +1,123 @@
+development and testing in progress!!!
+
+English:
+This package is designed to automate operations firmware update for the devices based on processor RK2918.
+
+Important!
+Use of this software package can cause damage to your device!
+This software package is supplied "as is" and without warranty.
+This software package may not meet your expectations.
+
+You can:
+- Unpack the firmware file consisting of one kind update.img (img mode, used RKBatchTool)
+- Unpack the firmware file consisting of a set RK29xxLoader.bin Image/boot.img Image/system.img etc (Image mode, used RKTool)
+- Change the name of the device and partition sizes (parameter file)
+- Install su and superuser (root access)
+- Install busybox in /system/xbin and create symlinks for the utilities that comes with busybox (like busybox pro)
+- Choose and install some system applications
+- Change the file size system.img
+- Create update.img
+- flash update to device
+
+also
+- Create their own plug-ins
+- To create automated scripts based on an existing plugin library
+- Modify the list of proposed system applications
+- Plug-in to remove files from the "black list"
+- build.prop fixes
+
+and
+- dump current flash from device
+
+TODO
+
+Notes
+The package runs on Linux operating systems (development and testing on OpenSUSE 11.4/12.2)
+With the user interface is implemented using utilities 'dialog'
+Binary utilities (directory bin) can be compiled using:
+# cd src /
+# make all install
+Dependences: libusb-1.0, libusb-1.0-devel, libssl, libssl-devel, dialog, sudo, cpio, zip, gcc
+To work actively used sudo (you can setup password-less mode) - need to modify the partition system (or run from root user)
+
+Use:
+[full_or_partial_path/]menu.sh [workdir]
+[full_or_partial_path/]batchImgRepack.sh [full_or_partial_path/]old.img
+[full_or_partial_path/]batchImageRepack.sh [full_or_partial_path_to_Image]
+flashdump
+
+workdir may contain update.img (img mode) or set of files (Image mode)
+
+Select a Folder
+The directory-selection dialog displays a text-entry window in which you can type a directory, and above that a windows with directory names.
+The directory window will display the contents of the path and the text-entry window will contain the preselected directory.
+Use tab or arrow keys to move between the windows. Within the directory window, use the up / down arrow keys to scroll the current selection. Use the space-bar to copy the current selection into the text-entry window.
+Typing any printable characters switches focus to the text-entry window, entering that character as well as scrolling the directory window to the closest match.
+Use a carriage return or the "OK" button to accept the current value in the text-entry window and exit.
+
+Select File
+The file-selection dialog displays a text-entry window in which you can type a filename (or directory), and above that two windows with directory names and filenames.
+Use tab or arrow keys to move between the windows. Within the directory or filename windows, use the up / down arrow keys to scroll the current selection. Use the space-bar to copy the current selection into the text-entry window.
+Typing any printable characters switches focus to the text-entry window, entering that character as well as scrolling the directory and filename windows to the closest match.
+Typing the space character forces dialog to complete the current name (up to the point where there may be a match against more than one entry).
+Use a carriage return or the "OK" button to accept the current value in the text-entry window and exit.
+
+Russian:
+Этот пакет создан для автоматизации операций модификации прошивок для устройств на основе процессора РК2918.
+
+Важно!
+Использование данного программного пакета может привести к повреждению вашего устройства!
+Данный программный пакет поставляется "как есть" и без каких либо гарантий.
+Данный программный пакет может не соответствовать вашим ожиданиям.
+
+Вы можете:
+- распаковывать прошивки состоящие из одного файла вида update.img (img mode, используется RKBatchTool)
+- распаковывать прошивки состоящих из  набора файлов RK29xxLoader.bin Image/boot.img Image/system.img etc (Image mode, используется RKTool)
+- изменять название устройства и размеры разделов (parameter file)
+- устанавливать su и superuser (root доступ)
+- устанавливать busybox в /system/xbin и создавать симлинки для утилит из комплекта busybox (аналогично busybox pro)
+- выбирать и устанавливать некоторые системные приложения
+- изменять размер файла system.img
+- создавать update.img
+- обновлять прошивку на устройстве
+
+также
+- создавать свои плагины
+- создавать  автоматизированные скрипты на основе существующей библиотеки плагинов
+- изменять список предлагаемых системных приложений
+- плагин для удаления файлов из "черного списка"
+- плагин изменение некоторых настроек build.prop
+
+еще
+- сливать прошивку с устройства
+
+Заметки
+Пакет работает на операционных системах Linux (разработка и тестирование на OpenSUSE 11.4/12.2)
+Интерфейс с пользователем реализован с использованием утилиты 'dialog'
+Бинарные утилиты (каталог bin) могут быть скомпилированы командой:
+# cd src/
+# make all install
+Зависимости: libusb-1.0, libusb-1.0-devel, libssl, libssl-devel, dialog, sudo, cpio, zip, gcc
+Для работы активно используется sudo (беспарольный режим желателен, но не обязателен) - необходим для модификации раздела system
+можно запускать от пользователя root
+
+Использование:
+[full_or_partial_path/]menu.sh [WorkDir]
+[full_or_partial_path/]batchImgRepack.sh [full_or_partial_path/]old.img
+[full_or_partial_path/]batchImageRepack.sh [full_or_partial_path_to_Image]
+
+WorkDir может содержать update.img (IMG режим) или набор файлов (Image режим)
+
+Select a Folder
+The directory-selection dialog displays a text-entry window in which you can type a directory, and above that a windows with directory names.
+The directory window will display the contents of the path and the text-entry window will contain the preselected directory.
+Use tab or arrow keys to move between the windows. Within the directory window, use the up / down arrow keys to scroll the current selection. Use the space-bar to copy the current selection into the text-entry window.
+Typing any printable characters switches focus to the text-entry window, entering that character as well as scrolling the directory window to the closest match.
+Use a carriage return or the "OK" button to accept the current value in the text-entry window and exit.
+
+Select File
+The file-selection dialog displays a text-entry window in which you can type a filename (or directory), and above that two windows with directory names and filenames.
+Use tab or arrow keys to move between the windows. Within the directory or filename windows, use the up / down arrow keys to scroll the current selection. Use the space-bar to copy the current selection into the text-entry window.
+Typing any printable characters switches focus to the text-entry window, entering that character as well as scrolling the directory and filename windows to the closest match.
+Typing the space character forces dialog to complete the current name (up to the point where there may be a match against more than one entry).
+Use a carriage return or the "OK" button to accept the current value in the text-entry window and exit.

@@ -1,0 +1,202 @@
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 3A: Optimizing directories
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+
+system: ***** FILE SYSTEM WAS MODIFIED *****
+system: 2126/2160 files (2.6% non-contiguous), 685684/737280 blocks
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/app/tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/app/tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk’: No space left on device
+Archive:  ATSLCarConsole.apk
+caution: filename not matched:  *.so
+Archive:  Bluetooth.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/Bluetooth.apk/lib/armeabi-v7a/libbluetooth_jni.so  
+Archive:  Browser.apk
+caution: filename not matched:  *.so
+Archive:  BTSuite.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/BTSuite.apk/lib/armeabi/libserial_port.so  
+Archive:  Camera2.apk
+caution: filename not matched:  *.so
+Archive:  CameraService.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/CameraService.apk/lib/armeabi/libcamera.so  
+Archive:  Canbus.apk
+caution: filename not matched:  *.so
+Archive:  CarAir.apk
+caution: filename not matched:  *.so
+Archive:  CarDvr-binarytek-px3.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libanw.10.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libanw.13.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libanw.14.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libanw.18.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libanw.21.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libcompat.7.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libiomx.10.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libiomx.13.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libiomx.14.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libvlc.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/CarDvr-binarytek-px3.apk/assets/libvlcjni.so  
+Archive:  CertInstaller.apk
+caution: filename not matched:  *.so
+Archive:  com.anddoes.launcher-34895ed9181f619ec9e72aa4f28cb7a2.apk
+caution: filename not matched:  *.so
+Archive:  com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi-v7a/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi-v7a/libaacdecoder.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi-v7a/librealm-jni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi-v7a/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi/libaacdecoder.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/armeabi/librealm-jni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/mips/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/mips/libaacdecoder.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/mips/librealm-jni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/mips/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/x86/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/x86/libaacdecoder.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/x86/librealm-jni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.clearchannel.iheartradio.controller-02ae1002d1b669b2f8240396b73b7524.apk/lib/x86/librsjni.so  
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libaacdecoder.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libaacdecoder.so’: No space left on device
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librealm-jni.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librealm-jni.so’: No space left on device
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librsjni.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librsjni.so’: No space left on device
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libRSSupport.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libRSSupport.so’: No space left on device
+Archive:  com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/arm64-v8a/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/arm64-v8a/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/armeabi-v7a/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/armeabi-v7a/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/mips/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/mips/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/x86/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/x86/librsjni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/x86_64/libRSSupport.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/com.pandora.android-d27060ea45a4ae01319eb73a75ba2008.apk/lib/x86_64/librsjni.so  
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librsjni.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/librsjni.so’: No space left on device
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libRSSupport.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libRSSupport.so’: No space left on device
+Archive:  Development.apk
+caution: filename not matched:  *.so
+Archive:  DownloadProviderUi.apk
+caution: filename not matched:  *.so
+Archive:  EasyConnected.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv23.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv40.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv42.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv44.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv50.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv60.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/libeasyconnrv70.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv40.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv42.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv44.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv50.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv60.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/assets/x86/libeasyconnrv70.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libcshell.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libecgl2jni.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libecgl2jni_vfpv3.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libgst_render.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libmDNSEmbedded.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libmediaserver.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/EasyConnected.apk/lib/armeabi/libusbconfig.so  
+Archive:  esexplorer.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/esexplorer.apk/lib/x86/libmyaes.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/esexplorer.apk/lib/armeabi/libmyaes.so  
+Archive:  EventCenter.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/EventCenter.apk/lib/armeabi/libserial_port.so  
+Archive:  GocSdk.apk
+caution: filename not matched:  *.so
+Archive:  GoogleCalendarSyncAdapter.apk
+caution: filename not matched:  *.so
+Archive:  GoogleContactsSyncAdapter.apk
+caution: filename not matched:  *.so
+Archive:  ImagePlayer.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/ImagePlayer.apk/lib/armeabi/libqpicjni156.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/ImagePlayer.apk/lib/x86/libqpicjni156.so  
+Archive:  jackpal.androidterm-801006944755b591cd214b1fef685237.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/armeabi/libjackpal-androidterm5.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/mips/libjackpal-androidterm5.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/x86/libjackpal-androidterm5.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/armeabi/libjackpal-termexec2.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/mips/libjackpal-termexec2.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/jackpal.androidterm-801006944755b591cd214b1fef685237.apk/lib/x86/libjackpal-termexec2.so  
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libjackpal-androidterm5.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libjackpal-androidterm5.so’: No space left on device
+cp: error writing ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libjackpal-termexec2.so’: No space left on device
+cp: failed to extend ‘/home/joker/tools/kitchen/RK29kitchen/test//Image/system/lib/libjackpal-termexec2.so’: No space left on device
+Archive:  KeyChain.apk
+caution: filename not matched:  *.so
+Archive:  LatinIME.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/LatinIME.apk/lib/armeabi-v7a/libjni_latinime.so  
+Archive:  Maps.apk
+caution: filename not matched:  *.so
+Archive:  MusicPlayer.apk
+caution: filename not matched:  *.so
+Archive:  Navigation.apk
+caution: filename not matched:  *.so
+Archive:  NaviSettings.apk
+caution: filename not matched:  *.so
+Archive:  OpenWnn.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/OpenWnn.apk/lib/armeabi-v7a/libWnnEngDic.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/OpenWnn.apk/lib/armeabi-v7a/libWnnJpnDic.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/OpenWnn.apk/lib/armeabi-v7a/libwnndict.so  
+Archive:  PackageInstaller.apk
+caution: filename not matched:  *.so
+Archive:  PacProcessor.apk
+caution: filename not matched:  *.so
+Archive:  PicoTts.apk
+caution: filename not matched:  *.so
+Archive:  Provision.apk
+caution: filename not matched:  *.so
+Archive:  Radio.apk
+caution: filename not matched:  *.so
+Archive:  RkApkinstaller.apk
+caution: filename not matched:  *.so
+Archive:  RKUpdateService.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/RKUpdateService.apk/lib/armeabi-v7a/librockchip_update_jni.so  
+Archive:  SoundRecorder.apk
+caution: filename not matched:  *.so
+Archive:  SpeechRecorder.apk
+caution: filename not matched:  *.so
+Archive:  Stk.apk
+caution: filename not matched:  *.so
+Archive:  Superuser.apk
+caution: filename not matched:  *.so
+Archive:  TelephonyProvider.apk
+caution: filename not matched:  *.so
+Archive:  TitaniumBackup_latest.apk
+  inflating: /tmp/tmp.SZTBrDXC4x/TitaniumBackup_latest.apk/lib/x86/libtitanium.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/TitaniumBackup_latest.apk/lib/mips/libtitanium.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/TitaniumBackup_latest.apk/lib/arm64-v8a/libtitanium.so  
+  inflating: /tmp/tmp.SZTBrDXC4x/TitaniumBackup_latest.apk/lib/armeabi/libtitanium.so  
+Archive:  tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk or
+        tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk.zip, and cannot find tunein.player-89b56948f34dbf0b750c2c6f1bf580e1.apk.ZIP, period.
+Archive:  UserDictionaryProvider.apk
+caution: filename not matched:  *.so
+Archive:  VideoEditor.apk
+caution: filename not matched:  *.so
+Archive:  VideoPlayer.apk
+caution: filename not matched:  *.so
+Archive:  WAPPushManager.apk
+caution: filename not matched:  *.so
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 3A: Optimizing directories
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+
+system: ***** FILE SYSTEM WAS MODIFIED *****
+system: 2138/2160 files (2.8% non-contiguous), 737277/737280 blocks

@@ -1,0 +1,4 @@
+Here you can manually place latest version or custom version of apktool.
+Please note that APK Easy Tool may not support older versions of apktool because the commands might be different
+
+Do not ask for help if you are using older version of apktool and you having issues with it
